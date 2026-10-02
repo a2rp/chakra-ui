@@ -2,7 +2,7 @@
 
 Compose interactive v3 components and build accessible forms.
 
-[Back to tutorial index](../README.md) · [Previous: Theming](03-theming.md) · [Next: Color mode and recipes](05-color-mode-and-recipes.md)
+[Back to tutorial index](../README.md)
 
 ---
 
@@ -181,4 +181,5 @@ Some users cannot distinguish the colors, and color may not be exposed to assist
 
 ---
 
-[Back to tutorial index](../README.md) · [Previous: Theming](03-theming.md) · [Next: Color mode and recipes](05-color-mode-and-recipes.md)
+| [← Previous: Theming](03-theming.md) | [Next: Color mode and recipes →](05-color-mode-and-recipes.md) |
+|:--|--:|

@@ -2,7 +2,7 @@
 
 Understand Chakra UI, prepare a React project, install the package, and render your first components.
 
-[Back to tutorial index](../README.md) · [Next: Styling and layout](02-styling-and-layout.md)
+[Back to tutorial index](../README.md)
 
 ---
 
@@ -140,4 +140,5 @@ Major versions can change provider props, component composition, and color-mode 
 
 ---
 
-[Back to tutorial index](../README.md) · [Next: Styling and layout](02-styling-and-layout.md)
+|  | [Next: Styling and layout →](02-styling-and-layout.md) |
+|:--|--:|

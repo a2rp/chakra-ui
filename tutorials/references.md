@@ -1,3 +1,5 @@
+[Back to tutorial index](../README.md)
+
 # Official Chakra UI references
 
 These links point to Chakra UI's official documentation. Check the relevant page whenever you need the full API or a version-specific detail.
@@ -57,4 +59,5 @@ These links point to Chakra UI's official documentation. Check the relevant page
 
 ---
 
-[Back to tutorial index](../README.md) · [Previous: Migration and practice](06-migration-and-practice.md)
+| [← Previous: Migration and practice](06-migration-and-practice.md) |  |
+|:--|--:|

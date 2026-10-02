@@ -2,7 +2,7 @@
 
 Set up dark mode, reuse component styles, and generate theme types with the CLI.
 
-[Back to tutorial index](../README.md) · [Previous: Components and forms](04-components-and-forms.md) · [Next: Migration and practice](06-migration-and-practice.md)
+[Back to tutorial index](../README.md)
 
 ---
 
@@ -166,4 +166,5 @@ Keep the Chakra provider, the color-mode provider if the app needs theme switchi
 
 ---
 
-[Back to tutorial index](../README.md) · [Previous: Components and forms](04-components-and-forms.md) · [Next: Migration and practice](06-migration-and-practice.md)
+| [← Previous: Components and forms](04-components-and-forms.md) | [Next: Migration and practice →](06-migration-and-practice.md) |
+|:--|--:|

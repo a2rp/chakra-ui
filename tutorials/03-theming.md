@@ -2,7 +2,7 @@
 
 Use semantic colors and tokens, then create a custom Chakra system.
 
-[Back to tutorial index](../README.md) · [Previous: Styling and layout](02-styling-and-layout.md) · [Next: Components and forms](04-components-and-forms.md)
+[Back to tutorial index](../README.md)
 
 ---
 
@@ -141,4 +141,5 @@ Give the token a mode-aware value, for example `value: { base: "{colors.gray.600
 
 ---
 
-[Back to tutorial index](../README.md) · [Previous: Styling and layout](02-styling-and-layout.md) · [Next: Components and forms](04-components-and-forms.md)
+| [← Previous: Styling and layout](02-styling-and-layout.md) | [Next: Components and forms →](04-components-and-forms.md) |
+|:--|--:|

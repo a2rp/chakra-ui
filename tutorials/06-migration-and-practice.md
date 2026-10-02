@@ -2,7 +2,7 @@
 
 Review the v2 to v3 migration path, build a practice card, and troubleshoot common issues.
 
-[Back to tutorial index](../README.md) · [Previous: Color mode and recipes](05-color-mode-and-recipes.md) · [Next: Official references](references.md)
+[Back to tutorial index](../README.md)
 
 ---
 
@@ -162,4 +162,5 @@ Use Tab and Shift+Tab to move through the link and other controls. Confirm the f
 
 ---
 
-[Back to tutorial index](../README.md) · [Previous: Color mode and recipes](05-color-mode-and-recipes.md) · [Next: Official references](references.md)
+| [← Previous: Color mode and recipes](05-color-mode-and-recipes.md) | [Next: Official references →](references.md) |
+|:--|--:|

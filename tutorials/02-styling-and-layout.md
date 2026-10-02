@@ -2,7 +2,7 @@
 
 Learn style props, layout primitives, and mobile-first responsive design.
 
-[Back to tutorial index](../README.md) · [Previous: Getting started](01-getting-started.md) · [Next: Theming](03-theming.md)
+[Back to tutorial index](../README.md)
 
 ---
 
@@ -195,4 +195,5 @@ Check that content fits without horizontal scrolling, text remains readable, con
 
 ---
 
-[Back to tutorial index](../README.md) · [Previous: Getting started](01-getting-started.md) · [Next: Theming](03-theming.md)
+| [← Previous: Getting started](01-getting-started.md) | [Next: Theming →](03-theming.md) |
+|:--|--:|
