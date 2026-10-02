@@ -116,29 +116,5 @@ export function WelcomePanel() {
 }
 ```
 
-## All Q&A in this chapter
-
-### 1. What does ChakraProvider make available, and where does it go?
-
-It makes Chakra's system, theme values, and styling context available to descendant components. Wrap the app once near its root so every page can use the same configuration.
-
-### 2. Which packages are needed for a basic setup?
-
-Install `@chakra-ui/react` and `@emotion/react`. Add other packages such as `next-themes` when you set up color mode.
-
-### 3. How do you build a welcome panel?
-
-Compose `Heading`, `Text`, and `Button` inside a `Stack`, as shown in Code example 4. Use a semantic token such as `fg.muted` for supporting text.
-
-### 4. How do you add Chakra UI when the app already has a root provider?
-
-Install the packages and nest ChakraProvider inside the existing app provider. Keep the existing React root and avoid wrapping the application in a second `createRoot`.
-
-### 5. Why check the Chakra UI major version before copying a tutorial?
-
-Major versions can change provider props, component composition, and color-mode APIs. A v2 snippet may fail or behave differently in a v3 project.
-
----
-
 |  | [Next: Styling and layout →](02-styling-and-layout.md) |
 |:--|--:|

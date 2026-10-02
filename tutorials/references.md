@@ -59,5 +59,5 @@ These links point to Chakra UI's official documentation. Check the relevant page
 
 ---
 
-| [← Previous: Migration and practice](06-migration-and-practice.md) |  |
+| [← Previous: Complete Q&A](07-all-questions-and-answers.md) |  |
 |:--|--:|

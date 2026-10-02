@@ -142,29 +142,5 @@ npx chakra snippet add color-mode
 npx chakra typegen ./theme.js
 ```
 
-## All Q&A in this chapter
-
-### 1. What role does `next-themes` play in Chakra UI v3 color mode?
-
-It manages the active light or dark theme and exposes it to the app. Chakra's generated provider connects it to Chakra's styling system, while semantic tokens resolve to the appropriate colors.
-
-### 2. Why can a v2 `useColorMode` example fail in a v3 project?
-
-The v3 hook is supplied by the generated color-mode snippet, not imported from `@chakra-ui/react` as in older examples. Add the snippet and import the helper from its generated file.
-
-### 3. When is a component recipe useful?
-
-Use a recipe when a component needs shared base styles and repeatable variants or sizes. It keeps the visual rules in one place instead of duplicating them at each use.
-
-### 4. What do the Chakra CLI snippet and typegen commands do?
-
-The snippet command adds reusable component or provider code. `typegen` generates TypeScript typings for custom tokens and recipes, enabling safer autocomplete; it is optional for JavaScript-only projects.
-
-### 5. What should you keep from a generated provider snippet?
-
-Keep the Chakra provider, the color-mode provider if the app needs theme switching, and any color-mode controls or helpers you use. Remove unused generated UI pieces and keep only one root provider.
-
----
-
 | [← Previous: Components and forms](04-components-and-forms.md) | [Next: Migration and practice →](06-migration-and-practice.md) |
 |:--|--:|

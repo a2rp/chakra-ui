@@ -171,29 +171,5 @@ export function ResponsiveProjects() {
 }
 ```
 
-## All Q&A in this chapter
-
-### 1. What is a Chakra style prop? Give three examples.
-
-A style prop applies a CSS style through a Chakra component prop. For example, `p` sets padding, `bg` sets the background color, and `fontSize` sets the text size.
-
-### 2. When do you choose Stack, Flex, or Grid?
-
-Use `Stack` for items arranged in one direction with a consistent gap, `Flex` for direct control over alignment and distribution, and `Grid` for rows and columns.
-
-### 3. How do you make a responsive card grid?
-
-Set `columns={{ base: 1, md: 2, lg: 3 }}` on `SimpleGrid`. The layout uses one column by default, two from the `md` breakpoint, and three from `lg`.
-
-### 4. Why use design tokens instead of repeating arbitrary values?
-
-Tokens keep spacing and colors consistent across the app. Changing a shared token later updates every component that uses it.
-
-### 5. What should you check at the base, md, and lg breakpoints?
-
-Check that content fits without horizontal scrolling, text remains readable, controls have enough room, and the number of columns suits the available width. Adjust padding, type size, or columns when the layout feels cramped.
-
----
-
 | [← Previous: Getting started](01-getting-started.md) | [Next: Theming →](03-theming.md) |
 |:--|--:|

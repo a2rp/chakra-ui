@@ -117,29 +117,5 @@ export function ThemePreview() {
 }
 ```
 
-## All Q&A in this chapter
-
-### 1. How are a design token and a semantic token different?
-
-A design token names a concrete value, such as `brand.500`. A semantic token names a purpose, such as `text.muted` or `surface.card`, so its value can change by color mode while its meaning stays the same.
-
-### 2. How do you add and use a brand color token?
-
-Add a value such as `500: { value: "#6d5dfc" }` under `theme.tokens.colors.brand`, then use it with a style prop such as `<Text color="brand.500">Brand label</Text>`. The complete system setup is in Code examples 3 and 4.
-
-### 3. When should you choose `fg.muted` or `bg.panel` over a literal color?
-
-Use those semantic tokens when the color represents a role, such as secondary text or a panel surface. The theme can then keep that role readable across light and dark modes.
-
-### 4. Why pass the custom system to ChakraProvider?
-
-ChakraProvider supplies the system to the component tree. If you omit the custom system, components continue using the default system and cannot resolve your custom tokens.
-
-### 5. How can a semantic color token adapt to light and dark mode?
-
-Give the token a mode-aware value, for example `value: { base: "{colors.gray.600}", _dark: "{colors.gray.300}" }`. The token name stays the same while its resolved color changes with the active mode.
-
----
-
 | [← Previous: Styling and layout](02-styling-and-layout.md) | [Next: Components and forms →](04-components-and-forms.md) |
 |:--|--:|

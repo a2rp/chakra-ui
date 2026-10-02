@@ -157,29 +157,5 @@ export function EmailForm() {
 
 The browser checks `type="email"` and `required` before submitting. The `Field` composition connects the label and helper text to the input so the control is understandable without relying on its placeholder.
 
-## All Q&A in this chapter
-
-### 1. What makes a component compound, and what does its Root part coordinate?
-
-A compound component is built from related parts, such as `Accordion.Root`, `Accordion.Item`, and `Accordion.ItemTrigger`. The Root coordinates shared state and behavior for those parts.
-
-### 2. How do you add a second accordion item?
-
-Add another `Accordion.Item` with a distinct `value`, then give it its own trigger and content. Code example 1 includes both `installation` and `provider` items.
-
-### 3. What should an accessible dialog provide, and how can it close?
-
-Give it a clear title, useful description, and named actions. The example includes a labeled close control; Chakra also closes the dialog with Escape by default.
-
-### 4. How do you build a required email field with helper and error text?
-
-Use `Field.Root required`, a `Field.Label`, and an `Input` with `type="email"`. Set the field's `invalid` prop after validation and render `Field.ErrorText`, as shown in Code example 3.
-
-### 5. Why should errors not be communicated by color alone?
-
-Some users cannot distinguish the colors, and color may not be exposed to assistive technology. Pair color with a clear message and an accessible invalid state.
-
----
-
 | [← Previous: Theming](03-theming.md) | [Next: Color mode and recipes →](05-color-mode-and-recipes.md) |
 |:--|--:|

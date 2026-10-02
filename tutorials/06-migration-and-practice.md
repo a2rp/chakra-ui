@@ -138,29 +138,5 @@ export function Root() {
 }
 ```
 
-## All Q&A in this chapter
-
-### 1. Which areas should you review when migrating from Chakra UI v2 to v3?
-
-Review provider and theme setup, changed component composition and props, and color-mode imports. Then check the official migration guide and test the interface at common breakpoints.
-
-### 2. How do you add a responsive list of skills to the profile card?
-
-Put skill badges in an `HStack` with `wrap="wrap"` and a gap. They stay on one line when space allows and wrap onto another line on narrower screens, as shown in Code example 1.
-
-### 3. How do you make the profile action a real, accessible link?
-
-Use Chakra's `Link` with an `href` and visible text such as `View profile`. The text supplies its accessible name and the `href` gives it normal link behavior.
-
-### 4. How do you investigate missing styles from a provider or system issue?
-
-Check that the app is wrapped once in `ChakraProvider`, that its `value` is the intended system, and that custom token names match the theme. Also check the browser console for provider or token errors.
-
-### 5. How do you test keyboard focus on the profile card?
-
-Use Tab and Shift+Tab to move through the link and other controls. Confirm the focused control is visibly highlighted and that the order follows the visual reading order.
-
----
-
-| [← Previous: Color mode and recipes](05-color-mode-and-recipes.md) | [Next: Official references →](references.md) |
+| [← Previous: Color mode and recipes](05-color-mode-and-recipes.md) | [Next: Complete Q&A →](07-all-questions-and-answers.md) |
 |:--|--:|
